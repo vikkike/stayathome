@@ -1,0 +1,129 @@
+.container {
+ width: 1200px;
+ margin: 0 auto;
+}
+
+.header {
+  background: #222222;
+  height: 70px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+.header-link {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+  display: flex;
+  margin: auto;
+}
+
+.header-link:hover {
+  color: pink;
+}
+
+.bio {
+  display: flex;
+}
+
+.image-left {
+  font-family: 'Abril Fatface', cursive;
+  color: #222222;
+  min-width: 500px;
+  max-width: 500px;
+  height: 350px;
+  flex-grow: 1;
+  position: relative;
+  
+  background-image: url("images/first-website-header.png") ;
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 50px;
+}
+
+.image-left p {
+  position: absolute;
+  bottom: 0;
+  left:40%;
+}
+.image-left h1 {
+  position: absolute;
+  bottom: 140px;
+  left:40%;
+}
+
+#image-myname {
+  display: flex;
+  font-size: 80px;
+  line-height: 0px;
+  margin: 0px;
+  flex-wrap: wrap;
+  line-height: 80px;
+  justify-content: flex-end;
+}
+
+.quote {
+  background: #444444;
+  font-family: 'Abril Fatface', cursive;
+  color: white;
+  height: 100%;
+  min-width: 500px;
+  max-width: 500px;
+  display: flex;
+  font-size: 80px;
+  flex-grow: 1;
+  line-height: 100%;
+  margin-top: 50px;
+}
+
+blockquote::before {
+  content: '”';
+  font-family: 'Abril Fatface', cursive;
+  font-size: 90px;
+  color: white;
+ 
+}
+
+.content {
+  margin-top: 70px;
+  margin-left: 30px;
+  margin-right: 20px;
+  flex-grow: 2;
+}
+
+.body {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222222;
+  line-height: 200%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  
+}
+
+h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222222;
+  line-height: 200%;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222222;
+  line-height: 150%;
+  font-size: 22px;
+}
+
+h4 {
+  font-family: 'Merriweather', serif;
+  color: #222222;
+  line-height: 0px;
+  font-size: 15px;
+  font-style: italic;
+}
